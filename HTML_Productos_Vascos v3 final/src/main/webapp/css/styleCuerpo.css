@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+/*Estilos del cuerpo*/
+
+#contenedorPrincipal{
+	background-color: var(--principalClaro);
+	margin:20px;
+	padding:20px;
+	
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+}
+#contenedorPrincipal h2{
+	margin-bottom:10px;
+}
+#contenedorPrincipal p{
+	margin-bottom:10px;
+}
+#contenedorPrincipal>img{
+	
+	display:block;
+	margin:auto;
+	height:200px;
+	width:400px;
+	margin-bottom:10px;
+}
+
+
+article{
+	width:220px;
+	height:180px;
+	background-color: var(--fondoPagina);
+	margin:5px;
+	padding:5px;
+}
+
+
+.productoImg{
+	width:180px;
+	height:90px;
+}
+
+.productoTituloImg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

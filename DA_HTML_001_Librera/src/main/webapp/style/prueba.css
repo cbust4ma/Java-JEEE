@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+.caja{
+	background-color:red;
+	width:160px;
+	height:100px;
+}
+
+	
+	align-items:flex-end;
+}

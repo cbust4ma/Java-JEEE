@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+:root{
+	--principal:#2196F3;
+	--principalOscuro:#303F9F;
+	--principalClaro:#C5CAE9;
+	--contraste:#FFEB3B;
+	--contrasteOscuro:#FFC107;
+	--fondoPagina:#FFFFFF;
+	--textoPrincipal:#212121;
+	--textoSecundario:#757575;
+	--divisor: #BDBDBD;
+}
+
+
+footer {
+  background-color: black;
+  font-family: "Lato", sans-serif;
+  padding: 45px 0 0.5px 0;
+}
+ 
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  position: relative;
+}
+ 
+.footer-item {
+  margin: 0 7.2% 0 0;
+}
+  
+.social{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.social i{
+	margin: 10px;
+	font-size:30px;
+}
+ 
+
+ 
+h1 {
+  font-weight: 900;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+ 
+h2 {
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 13px;
+  color: #d1d1d1;
+  letter-spacing: 0.03em;
+  padding: 15px 0 0 0;
+}
+ 
+.color {
+  color: white;
+  font-weight: 400;
+}
+ 
+h3 {
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  margin: 0;
+  padding-bottom: 9px;
+  letter-spacing: 0.03em;
+}
+ 
+h3.desktop {
+  padding-top: 30px;
+}
+ 
+ul {
+  line-height: 1.8;
+  list-style-type: none;
+  padding: 0;
+}
+ 
+li {
+  font-weight: 300;
+  font-size: 13px;
+  color: #d1d1d1;
+  letter-spacing: 0.03em;
+}
+ 
+p {
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+ 
+a {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+ 
+a:hover {
+  color: skyblue;
+}
+ 
+.desktop {
+  display: auto;
+}
+ 
