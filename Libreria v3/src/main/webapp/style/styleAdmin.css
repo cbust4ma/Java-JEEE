@@ -1,0 +1,170 @@
+@charset "ISO-8859-1";
+:root{
+	--principal: #4CAF50;
+	--principalOscuro: #388E3C;
+	--principalClaro: #C8E6C9;
+	--iconos: #FFFFFF;
+	--contraste: #FFEB3B;
+	--contrasteOscuro: #FFC107;
+	--textoPrincipal: #212121;
+	--textoSecundario: #757575;
+	--divisor: #BDBDBD;
+	--fondoPagina: #FFFFFF;
+}
+
+*{
+	margin:0;
+	padding:0;
+	color:var(--textoPrincipal);
+}
+
+
+
+header{
+	background-color: var(--principalOscuro);
+	/*hacer header flex para ordenar en vertical*/
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content:flex-start;
+	
+}
+
+#superiorCabecera{
+
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: flex-start;
+	align-items: flex-start;
+	width:80%;
+}
+
+#cerrarCabecera{
+display:flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items:flex-end;
+width:20%;
+
+padding: 10px 10px 10px 10px;
+}
+
+h1{
+	font-size:50px;
+	font-family: Gobold_Regular, gobold, sans-serif;
+	color: var(--iconos);
+	padding: 10px 10px 10px 30px;
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+
+/*estilos del menu*/
+
+#bloqueMenu{
+	background-color: var(--principal);
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	}
+
+.elementoMenu{
+	color: white;
+	background-color: var(--principal);
+
+}
+
+.enlaceMenu:link{
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	font-family: Gobold_Regular, gobold, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.enlaceMenu:hover{
+	background-color: var(--contraste);
+}
+
+.enlaceMenu:visited{
+	background-color: var(--contraste);
+
+}
+
+.enlaceMenu:active{
+	background-color: var(--contrasteOscuro);
+}
+
+/*estilos de la pagina principal*/
+
+body{
+	background-color: var(--fondoPagina);
+}
+
+main{
+	
+	margin:20px;
+	
+}
+
+
+p{
+	font-size: 18px;
+	margin:0 0 5px 0;
+}
+
+/*seccion del formulario admin libros*/
+#seccionAdd {
+	background-color: var(--principalClaro);
+	padding:5px;
+	margin:0 0 10px 0;
+}
+
+#seccionFilter{
+	background-color: var(--principalClaro);
+	padding:5px;
+	margin:0 0 10px 0;
+}
+
+
+#seccionResultadoFilter{
+	background-color: var(--principalClaro);
+	padding:5px;
+	
+}
+
+
+/*Estilos de la tabla*/
+table{
+	background-color:orange;
+	width:100%;
+	
+	border-spacing:0; /* Removes the cell spacing via CSS */
+  	border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+}
+
+thead{
+	background-color: var(--principalOscuro);
+	color:white;
+	font-size: 18px;
+	font-weight:bold;
+	border-bottom: 3px var(--divisor) solid;
+}
+
+th{color:var(--fondoPagina);}
+
+tbody tr:nth-child(even){
+	background-color:var(--fondoPagina);
+}
+
+tbody tr:nth-child(odd){
+	background-color:var(--principal);
+}
+
+
+
+
+
+
