@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>JEE_004_precarga_datos</display-name>
+  <welcome-file-list>
+    	<welcome-file>IniciarWeb</welcome-file>
+  </welcome-file-list>
+</web-app>
