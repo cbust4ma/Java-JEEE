@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+:root{
+	--principal:#3F51B5;
+	--principalOscuro:#303F9F;
+	--principalClaro:#C5CAE9;
+	--contraste:#FFEB3B;
+	--contrasteOscuro:#FFC107;
+	--fondoPagina:#FFFFFF;
+	--textoPrincipal:#212121;
+	--textoSecundario:#757575;
+	--divisor: #BDBDBD;
+}
+
+*{
+	color:var(--textoPrincipal);
+	margin:0;
+	padding:0;
+}
+
+/*estilos de la cabecera*/
+header{
+	background-color: var(--principal);
+	
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	
+	padding:40px 0 10px 0;
+}
+
+h1{
+	color: var(--contraste);
+	font-size: 60px;
+}
+
+
+/*Estilos de la barra de menu*/
+
+nav{
+	display:flex;
+	flex-direction:row;
+	background-color: var(--principalOscuro);
+}
+
+#menuIzquierda{
+	width:80%;
+}
+
+#menuRedes{
+	width:20%;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding:0 15px 0 0
+}
+
+.icono48{
+	width:48px;
+	height:48px;
+}
+
+#menu{
+	list-style: none;
+	display:flex;
+}
+
+.menuEnlace:link{
+	display: inline-block;
+	color:var(--contraste);
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none; 
+	padding:20px 15px 10px 15px;
+}
+.menuEnlace:visited{
+	color:var(--contraste);
+}
+.menuEnlace:hover{
+	background-color: var(--contraste);
+	color:var(--textoPrincipal);
+}
+
+.menuEnlace:active{
+	background-color: var(--contrasteOscuro);
+	color:var(--textoPrincipal);
+}
+
+
+
+
+
+
